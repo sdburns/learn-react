@@ -11,6 +11,15 @@ const root = createRoot(document.getElementById("root"))
  * Render the Page component.
  */
 
+function Page() {
+    return (
+        <ol>
+            <li>Learning a new framework to improve my front end development skills.</li>
+            <li>Will be able to contribute to React projects at work.</li>
+        </ol>
+    )
+}
+
 root.render(
-    
+    <Page />
 )
