@@ -11,6 +11,11 @@
 
 export default function Navbar() {
     return (
-        <h1>Navbar component here</h1>
+        <header className="header">
+            <nav className="nav-container">
+                <img src="react-logo.png" className="nav-logo" alt="React logo" />
+                <span className="nav-title">ReactFacts</span>
+            </nav>
+        </header>
     )
 }
