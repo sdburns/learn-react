@@ -46,7 +46,17 @@ main > h1 {
     max-width: 400px;
 }
 
+li {
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
+
 .facts-list > li {
     padding-block: 10px;
     line-height: 19px;
+}
+
+li {
+    color: #61DAFB;
+    font-size: 1.5rem;
 }
